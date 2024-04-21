@@ -34,7 +34,11 @@ extern "C" {
 #include <stddef.h>
 #include <rtl-sdr_export.h>
 
+#include <stdbool.h>
+
 typedef struct rtlsdr_dev rtlsdr_dev_t;
+
+RTLSDR_API int rtlsdr_get_dagc_gain(rtlsdr_dev_t *dev);
 
 RTLSDR_API uint32_t rtlsdr_get_device_count(void);
 
