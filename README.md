@@ -9,6 +9,8 @@ rtl-sdr turns your Realtek RTL2832 based DVB dongle into a SDR receiver
 # New enhancements and features in this version
 
 Many different developments have been taken in this release. For an overview, see [improvements](README_improvements.md)
++ Rtl2832u DAGC reading added
++ pragma regions for better reading on librtlsdr.c
 
 # Build / Install (on debian/ubuntu)
 
